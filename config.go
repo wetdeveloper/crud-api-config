@@ -1,5 +1,4 @@
-package github.com/wetdeveloper/crud-api-config
-
+package config
 func AppConfig() map[string]string {
 	config := make(map[string]string)
 	config["database-address"] = "users.db"
